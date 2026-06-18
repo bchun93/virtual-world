@@ -28,9 +28,9 @@ else
     echo "Repository already exists on GitHub. Adding remote..."
     git remote add origin "$REMOTE"
   else
-    echo "Creating private GitHub repository ${GITHUB_USER}/${REPO_NAME}..."
+    echo "Creating public GitHub repository ${GITHUB_USER}/${REPO_NAME}..."
     gh repo create "$REPO_NAME" \
-      --private \
+      --public \
       --source=. \
       --remote=origin \
       --description "Short-term rental business project management hub"
@@ -42,9 +42,9 @@ git push -u origin main
 
 echo "Enabling GitHub Pages (GitHub Actions source)..."
 gh api \
-  -X PUT \
+  --method POST \
   "/repos/${GITHUB_USER}/${REPO_NAME}/pages" \
-  -f build_type=workflow >/dev/null 2>&1 || true
+  -f build_type=workflow
 
 PAGES_URL="https://${GITHUB_USER}.github.io/${REPO_NAME}/"
 

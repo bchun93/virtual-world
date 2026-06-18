@@ -33,7 +33,15 @@ gh run watch --repo YOUR_GITHUB_USERNAME/short-term-rental-business
 
 The live site will be:
 
-`https://YOUR_GITHUB_USERNAME.github.io/short-term-rental-business/`
+`https://bchun93.github.io/short-term-rental-business/`
+
+**GitHub Pages on the free plan requires a public repository.** The setup script creates a private repo by default; if Pages deploy fails, run:
+
+```bash
+gh repo edit bchun93/short-term-rental-business --visibility public --accept-visibility-change-consequences
+gh api --method POST /repos/bchun93/short-term-rental-business/pages -f build_type=workflow
+gh workflow run "Deploy to GitHub Pages" --repo bchun93/short-term-rental-business
+```
 
 ## After deployment
 
