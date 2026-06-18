@@ -1,0 +1,15 @@
+# Dependencies
+hub/node_modules/
+hub/dist/
+
+# Build artifacts
+hub/tsconfig.tsbuildinfo
+
+# OS / editor
+.DS_Store
+*.log
+.env
+.env.*
+
+# Local overrides
+hub/.vercel

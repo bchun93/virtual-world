@@ -1,0 +1,2232 @@
+[
+  {
+    "item_id": "1",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Define financial goals for the venture",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "2",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Define target cash flow per property",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "3",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Define target portfolio size",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "4",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Decide ownership vs. arbitrage",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "5",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Decide self-managed ownership vs. co-hosting/management-company model",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "6",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Decide luxury vs. budget positioning",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "7",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Decide vacation/leisure market vs. urban/business-travel market",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "8",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Decide domestic-only vs. international markets",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "9",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Define your investment time horizon",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "10",
+    "phase_number": "0",
+    "phase_name": "Vision & Strategy",
+    "action_item": "Define your exit strategy",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "11",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define each partner's role and responsibilities",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "12",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define decision-making authority",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "13",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define voting rules",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "14",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define capital contribution rules",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "15",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define a future capital call process (e.g., unplanned $15K roof repair in year two)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "16",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define a buyout process",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "17",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define a dispute-resolution process",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "18",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define death/disability provisions",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "19",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Define a partner compensation structure (what happens if one partner does more of the actual work?)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "20",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Draft and sign the operating/partnership agreement with an attorney",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "21",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Decide entity structure: single LLC vs. holding-company-plus-property-level-LLC",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "22",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Get EIN(s)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "23",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Open dedicated business bank account(s)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "24",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Set up bookkeeping and accounting software",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "25",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Set up a partner reporting cadence",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "26",
+    "phase_number": "1",
+    "phase_name": "Partnership & Entity Structure",
+    "action_item": "Establish a CPA relationship and STR tax strategy",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "27",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Build a market evaluation framework",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "28",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Define minimum ROI requirements",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "29",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Define minimum occupancy thresholds",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "30",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Define minimum ADR thresholds",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "31",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Define minimum cash flow thresholds",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "32",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research state-level STR regulations",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "33",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research county-level regulations",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "34",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research city-level regulations",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "35",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research zoning restrictions",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "36",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research HOA/covenant restrictions",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "37",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research permitting requirements and timelines",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "38",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research tourism demand drivers",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "39",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research seasonality patterns",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "40",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research local STR competition/saturation",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "41",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research planned future development",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "42",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research airport/drive-time access for your target guest",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "43",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research proximity to major attractions (trailheads",
+    "parent_item_id": " park entrances)",
+    "status": "",
+    "completed": "Not Started",
+    "notes": "false"
+  },
+  {
+    "item_id": "44",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research local employer base",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "45",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Research local economic trends",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "46",
+    "phase_number": "2",
+    "phase_name": "Market Selection",
+    "action_item": "Build a market comparison spreadsheet against your thresholds",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "47",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Build a realtor network across shortlisted markets",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "48",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Identify STR-experienced/STR-friendly agents specifically",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "49",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Contact agents in target markets",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "50",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Build a deal underwriting model/spreadsheet",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "51",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn to read AirDNA-style market data",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "52",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn dynamic-pricing concepts (before you need them live)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "53",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn comp analysis methodology",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "54",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn revenue forecasting",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "55",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn expense forecasting",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "56",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn debt-service analysis",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "57",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn cap rate calculations",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "58",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn cash-on-cash return calculations",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "59",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Build a deal tracker/pipeline spreadsheet",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "60",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Set up MLS saved searches",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "61",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Build a daily/weekly listing-review cadence",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "62",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Learn to source off-market opportunities",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "63",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Decide if you're open to fixer-uppers",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "64",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Decide if you're open to land + new-build",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "65",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Decide if you're targeting turnkey only",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "66",
+    "phase_number": "3",
+    "phase_name": "Deal Sourcing & Underwriting Skill-Building",
+    "action_item": "Decide if you're targeting a unique/statement-stay niche vs. standard rental",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "67",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Project revenue (occupancy × ADR × seasonality) per candidate",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "68",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite occupancy assumptions explicitly",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "69",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite ADR assumptions explicitly",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "70",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite seasonality assumptions explicitly",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "71",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite utility costs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "72",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite internet/connectivity — verify actual availability and speed, not just \"listed\"",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "73",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite insurance costs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "74",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite cleaning costs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "75",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite maintenance costs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "76",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite landscaping costs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "77",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite pest control costs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "78",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite property and occupancy taxes",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "79",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite licensing/permit fees",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "80",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite a capex reserve",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "81",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Underwrite management costs (even if self-managing)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "82",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Build explicit downside scenarios:",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "82a",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Recession scenario",
+    "parent_item_id": "82",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "82b",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Regulatory ban/restriction scenario",
+    "parent_item_id": "82",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "82c",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Occupancy decline scenario",
+    "parent_item_id": "82",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "82d",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Rate compression scenario",
+    "parent_item_id": "82",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "82e",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Maintenance disaster scenario",
+    "parent_item_id": "82",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "83",
+    "phase_number": "4",
+    "phase_name": "Property Underwriting & Risk Analysis",
+    "action_item": "Set minimum return thresholds before you're emotionally attached to a property",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "84",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Build relationships with multiple lenders",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "85",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Compare financing products (DSCR, 2nd-home conventional, investment loan)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "86",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Get pre-approved",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "87",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Decide down payment structure and funding source",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "88",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Submit offers",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "89",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Negotiate price, terms, and seller concessions",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "90",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Conduct inspections",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "91",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Review inspection reports, renegotiate if needed",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "92",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Review title",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "93",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Obtain insurance before close",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "94",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Finalize financing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "95",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Close on the property",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "96",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Set up utility transfers",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "97",
+    "phase_number": "5",
+    "phase_name": "Financing & Acquisition",
+    "action_item": "Get a survey if boundaries are unclear",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "98",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Define your guest avatar",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "99",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Define a property theme/concept",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "100",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Translate concept into a design direction",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "101",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Build a furnishing budget",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "102",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Build a shopping/sourcing list",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "103",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source furniture (rated for turnover durability)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "104",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source décor",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "105",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source linens",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "106",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source kitchen supplies",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "107",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source electronics",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "108",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source security systems, locks, cameras",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "109",
+    "phase_number": "6",
+    "phase_name": "Design & Positioning",
+    "action_item": "Source smart-home devices (thermostat, noise monitor, water sensors)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "110",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Assemble furniture",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "111",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install smart lock(s)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "112",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install exterior cameras (with disclosure)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "113",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install/verify wifi",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "114",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install TV/entertainment systems",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "115",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install smoke detectors",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "116",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install CO detectors",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "117",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Install fire extinguishers",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "118",
+    "phase_number": "7",
+    "phase_name": "Setup & Safety Installation",
+    "action_item": "Complete a full safety walkthrough before listing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "119",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Apply for the STR business license/permit",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "120",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Register for lodging/occupancy tax collection",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "121",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Confirm parking, occupancy, and noise ordinance rules",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "122",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Confirm septic capacity limits on legal occupancy",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "123",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Confirm well-water testing/certification requirements",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "124",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Set reminders for permit renewal deadlines",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "125",
+    "phase_number": "8",
+    "phase_name": "Permits, Licensing & Compliance",
+    "action_item": "Build a recurring check for regulatory changes",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "126",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Choose a PMS/channel manager",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "127",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Create Airbnb account",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "128",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Create Vrbo/Booking.com accounts",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "129",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Decide a direct-booking strategy/website",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "130",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Set up dynamic pricing software (e.g., PriceLabs)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "131",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Set up automated guest messaging",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "132",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Build a digital guest guidebook",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "133",
+    "phase_number": "9",
+    "phase_name": "Technology & Operating Systems",
+    "action_item": "Sync booking calendar to cleaning/vendor calendar",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "134",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write cleaning SOPs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "135",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write maintenance SOPs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "136",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write inspection SOPs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "137",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write emergency SOPs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "138",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write guest communication SOPs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "139",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write vendor management SOPs",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "140",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write turnover procedures",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "141",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write inventory management procedures",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "142",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write a damage-claim procedure",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "143",
+    "phase_number": "10",
+    "phase_name": "Operations SOPs",
+    "action_item": "Write a refund/cancellation policy",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "144",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find and vet a cleaning company",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "145",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Line up a backup cleaner",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "146",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Line up a true emergency/same-day cleaner",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "147",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a general handyman",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "148",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Line up a backup handyman",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "149",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a plumber",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "150",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find an electrician",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "151",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find an HVAC technician",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "152",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find an appliance repair technician",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "153",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a pest control company",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "154",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a landscaper",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "155",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a snow removal vendor (if applicable)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "156",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a pool vendor (if applicable)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "157",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a hot tub vendor (if applicable)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "158",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a photographer",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "159",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Find a local property manager/co-host as backup coverage",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "160",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Build an emergency contact list before you need it",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "161",
+    "phase_number": "11",
+    "phase_name": "Vendor & Local Team Network",
+    "action_item": "Get vendor scope and rates in writing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "162",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Create photography shot list",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "163",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Complete the photoshoot",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "164",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Select a cover photo",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "165",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Write the listing title",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "166",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Write the listing description",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "167",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Build the amenity list",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "168",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Finalize house rules",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "169",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Publish the listing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "170",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Optimize the listing post-publish",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "171",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Manage and over-deliver on your first guest",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "172",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Get your first booking",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "173",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Get your first review",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "174",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Get to five reviews",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "175",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Work toward Superhost/Guest Favorite status",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "176",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Refine pricing based on early data",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "177",
+    "phase_number": "12",
+    "phase_name": "Listing Creation & Launch",
+    "action_item": "Refine messaging templates based on real guest questions",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "178",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Establish minimum-stay rules by season",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "179",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Establish cancellation policy",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "180",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Build seasonal/peak pricing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "181",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Build holiday pricing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "182",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Build last-minute discount rules",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "183",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Build gap-night pricing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "184",
+    "phase_number": "13",
+    "phase_name": "Revenue & Pricing Management",
+    "action_item": "Monitor competitor pricing ongoing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "185",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor occupancy",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "186",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor ADR",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "187",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor total revenue",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "188",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor expenses against budget",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "189",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor review scores",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "190",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor response times",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "191",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor vendor performance",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "192",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor maintenance issues proactively",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "193",
+    "phase_number": "14",
+    "phase_name": "Ongoing Remote Management",
+    "action_item": "Monitor inventory/consumables",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "194",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Monthly bookkeeping",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "195",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Monthly revenue reconciliation",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "196",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Ongoing tax planning",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "197",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Occupancy tax compliance/filing",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "198",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Annual reporting",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "199",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Cash reserve management",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "200",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Debt management",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "201",
+    "phase_number": "15",
+    "phase_name": "Financial Management & Compliance",
+    "action_item": "Distribution management between partners",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "202",
+    "phase_number": "16",
+    "phase_name": "Risk Management & Continuity",
+    "action_item": "Plan a wildfire/natural-disaster evacuation and guest-notification protocol",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "203",
+    "phase_number": "16",
+    "phase_name": "Risk Management & Continuity",
+    "action_item": "Build a winterization protocol (if seasonal)",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "204",
+    "phase_number": "16",
+    "phase_name": "Risk Management & Continuity",
+    "action_item": "Build an \"I can't get there in time\" contingency plan",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "205",
+    "phase_number": "16",
+    "phase_name": "Risk Management & Continuity",
+    "action_item": "Review and renew insurance annually",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "206",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Build a formal acquisition funnel",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "207",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Standardize underwriting process and templates",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "208",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Standardize furnishing approach and vendor list",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "209",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Standardize vendor onboarding",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "210",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Standardize launch process",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "211",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Standardize partner/owner reporting",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "212",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Build formal acquisition criteria",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "213",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Build a market-expansion framework",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "214",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Build a hiring framework",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "215",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Acquire property #2",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "216",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Acquire property #3",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "217",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Acquire property #4",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  },
+  {
+    "item_id": "218",
+    "phase_number": "17",
+    "phase_name": "Scaling",
+    "action_item": "Continue scaling per your Phase 0 portfolio goal",
+    "parent_item_id": "",
+    "status": "Not Started",
+    "completed": "false",
+    "notes": ""
+  }
+]
