@@ -25,9 +25,18 @@ npm run sync-data
 
 ## Deployment
 
-The app deploys automatically to GitHub Pages when changes are pushed to `main`.
+Deployment uses **GitHub Pages** via `.github/workflows/deploy.yml`. Pushes to `main` build and publish the hub automatically.
 
-Live site: https://brianchun.github.io/short-term-rental-business/
+### Finish setup (one-time)
+
+1. Authenticate GitHub CLI: `gh auth login --hostname github.com --git-protocol https --web`
+2. Run: `./scripts/setup-github.sh`
+
+See [DEPLOY.md](./DEPLOY.md) for full instructions.
+
+After setup, your live site will be:
+
+`https://YOUR_GITHUB_USERNAME.github.io/short-term-rental-business/`
 
 ## Partner access
 
