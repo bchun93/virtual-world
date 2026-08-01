@@ -1,4 +1,5 @@
 import type { Direction, GameMap } from "../types";
+import { createBody3D, type Body3D } from "./controller3d";
 
 export interface OverworldActor {
   tileX: number;
@@ -10,6 +11,8 @@ export interface OverworldActor {
   fromY: number;
   toX: number;
   toY: number;
+  /** Continuous 3D body (kinematic). */
+  body: Body3D;
 }
 
 export const DELTA: Record<Direction, [number, number]> = {
@@ -34,6 +37,7 @@ export function createActor(
     fromY: tileY,
     toX: tileX,
     toY: tileY,
+    body: createBody3D(tileX, tileY, facing),
   };
 }
 
@@ -63,7 +67,7 @@ export function tryStartMove(
   const tx = actor.tileX + dx;
   const ty = actor.tileY + dy;
   if (isBlocked(map, tx, ty)) {
-    return { actor: next, bumped: true };
+    return { actor: { ...next, body: actor.body }, bumped: true };
   }
   return {
     actor: {
@@ -74,6 +78,7 @@ export function tryStartMove(
       fromY: actor.tileY,
       toX: tx,
       toY: ty,
+      body: actor.body,
     },
     bumped: false,
   };

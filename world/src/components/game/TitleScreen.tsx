@@ -24,7 +24,7 @@ export default function TitleScreen() {
           className="animate-rise mt-4 max-w-lg text-[var(--color-mist-dim)]"
           style={{ animationDelay: "0.2s" }}
         >
-          Explore Meadow Edge, battle wild creatures, catch companions, and grow your party.
+          Explore a 3D Meadow Edge, battle wild creatures, catch companions, and grow your party.
         </p>
 
         <div className="animate-rise mt-8 flex max-w-md flex-col gap-3" style={{ animationDelay: "0.3s" }}>
