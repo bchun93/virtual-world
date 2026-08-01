@@ -14,28 +14,16 @@ npm run dev
 
 Open the local URL shown in the terminal (usually `http://localhost:5173`).
 
+## Repository
+
+**https://github.com/bchun93/virtual-world**
+
 ## Deployment
-
-Intended live URL after renaming the GitHub repository:
-
-**https://bchun93.github.io/virtual-world/**
 
 Pushes to `main` rebuild and deploy via `.github/workflows/deploy.yml` (GitHub Pages).
 
-### Rename this repository
+Intended live URL:
 
-This project previously lived at `short-term-rental-business`. Rename it on GitHub:
+**https://bchun93.github.io/virtual-world/**
 
-```bash
-gh repo rename virtual-world --repo bchun93/short-term-rental-business
-```
-
-Or in GitHub: **Settings → General → Repository name → `virtual-world`**.
-
-After renaming, update your local remote if needed:
-
-```bash
-git remote set-url origin https://github.com/bchun93/virtual-world.git
-```
-
-See [DEPLOY.md](./DEPLOY.md) for Pages setup details.
+GitHub Pages on the free plan requires a **public** repository. See [DEPLOY.md](./DEPLOY.md) for setup details.
