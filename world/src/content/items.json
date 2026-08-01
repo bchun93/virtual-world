@@ -1,0 +1,25 @@
+{
+  "items": {
+    "aetherball": {
+      "id": "aetherball",
+      "name": "Aether Ball",
+      "category": "ball",
+      "ballModifier": 1,
+      "usableIn": ["battle"]
+    },
+    "greatball": {
+      "id": "greatball",
+      "name": "Great Ball",
+      "category": "ball",
+      "ballModifier": 1.5,
+      "usableIn": ["battle"]
+    },
+    "potion": {
+      "id": "potion",
+      "name": "Potion",
+      "category": "heal",
+      "heal": 20,
+      "usableIn": ["battle", "overworld"]
+    }
+  }
+}

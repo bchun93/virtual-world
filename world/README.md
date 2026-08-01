@@ -1,25 +1,21 @@
-# Aether · Virtual World
+# Aether · Creature RPG
 
-Interactive virtual world experience. Enter the realm, pick a district of light, and read what waits there.
+Playable vertical slice of a creature-collector in the Aether virtual world.
 
-## Quick start
+## Scripts
 
 ```bash
-cd world
 npm install
-npm run dev
+npm run dev      # local game
+npm test         # battle engine unit tests
+npm run build    # production build
 ```
 
-## Features
+## Layout
 
-- Arrival hero with brand-first composition
-- Explorable district map (six zones)
-- Ambient atmosphere (aurora drift, particles, pulse lights)
-- Respects `prefers-reduced-motion`
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
+- `src/content/` — JSON data (species, moves, types, map, items)
+- `src/game/battle/` — pure combat module
+- `src/game/overworld/` — grid movement + encounters
+- `src/game/progression/` — stats, XP, capture
+- `src/game/state/` — mode machine + save/load
+- `src/components/game/` — React UI shells
