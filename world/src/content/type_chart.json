@@ -1,0 +1,19 @@
+{
+  "_comment": "Original 12-type effectiveness matrix. Read as chart[attacker][defender] = multiplier. Any pair not listed defaults to 1.0. Against a dual-type defender, multiply the entries for BOTH of its types (product can be 0, 0.25, 0.5, 1, 2, or 4). This is a coherent STARTING POINT, not a balance guarantee — tune it for your game. Types are original; do not copy another game's exact chart.",
+  "types": ["neutral", "fire", "water", "nature", "electric", "earth", "air", "ice", "metal", "toxic", "light", "shadow"],
+  "default": 1.0,
+  "chart": {
+    "neutral":  { "metal": 0.5, "shadow": 0 },
+    "fire":     { "nature": 2, "ice": 2, "metal": 2, "water": 0.5, "earth": 0.5, "fire": 0.5 },
+    "water":    { "fire": 2, "earth": 2, "nature": 0.5, "electric": 0.5, "water": 0.5 },
+    "nature":   { "water": 2, "earth": 2, "fire": 0.5, "air": 0.5, "ice": 0.5, "toxic": 0.5, "metal": 0.5, "nature": 0.5 },
+    "electric": { "water": 2, "air": 2, "metal": 2, "earth": 0, "nature": 0.5, "electric": 0.5 },
+    "earth":    { "fire": 2, "electric": 2, "metal": 2, "toxic": 2, "water": 0.5, "nature": 0.5, "air": 0 },
+    "air":      { "nature": 2, "earth": 2, "electric": 0.5, "ice": 0.5, "metal": 0.5 },
+    "ice":      { "nature": 2, "air": 2, "earth": 2, "fire": 0.5, "water": 0.5, "ice": 0.5, "metal": 0.5 },
+    "metal":    { "ice": 2, "toxic": 2, "light": 2, "fire": 0.5, "earth": 0.5, "electric": 0.5, "metal": 0.5 },
+    "toxic":    { "nature": 2, "water": 2, "earth": 0.5, "toxic": 0.5, "metal": 0 },
+    "light":    { "shadow": 2, "toxic": 2, "metal": 0.5, "light": 0.5 },
+    "shadow":   { "neutral": 2, "light": 2, "shadow": 0.5, "metal": 0.5 }
+  }
+}

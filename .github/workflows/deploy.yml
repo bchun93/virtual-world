@@ -26,30 +26,26 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: hub/package-lock.json
+          cache-dependency-path: world/package-lock.json
 
       - name: Install dependencies
-        working-directory: hub
+        working-directory: world
         run: npm ci
 
-      - name: Sync action items
-        working-directory: hub
-        run: npm run sync-data
-
       - name: Build
-        working-directory: hub
+        working-directory: world
         env:
           GITHUB_PAGES: "true"
         run: npm run build
 
       - name: Add SPA fallback
-        working-directory: hub/dist
+        working-directory: world/dist
         run: cp index.html 404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: hub/dist
+          path: world/dist
 
   deploy:
     needs: build

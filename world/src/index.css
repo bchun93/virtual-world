@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: #07131c;
+  --color-ink-soft: #122433;
+  --color-mist: #d7e7ef;
+  --color-mist-dim: #9bb4c4;
+  --color-horizon: #f2c97a;
+  --color-tide: #2f9ea8;
+  --color-depth: #0a2433;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-mist);
+  background: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+@keyframes drift-cloud {
+  from {
+    transform: translateX(-8%);
+  }
+  to {
+    transform: translateX(8%);
+  }
+}
+
+@keyframes float-particle {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateY(-28px) scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aurora-shift {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: translateX(-2%) skewX(-4deg);
+  }
+  50% {
+    opacity: 0.65;
+    transform: translateX(3%) skewX(3deg);
+  }
+}
+
+.animate-drift-slow {
+  animation: drift-cloud 28s ease-in-out infinite alternate;
+}
+
+.animate-drift-slower {
+  animation: drift-cloud 42s ease-in-out infinite alternate-reverse;
+}
+
+.animate-float {
+  animation: float-particle 7s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3.6s ease-in-out infinite;
+}
+
+.animate-rise {
+  animation: rise-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-fade {
+  animation: fade-in 0.7s ease both;
+}
+
+.animate-aurora {
+  animation: aurora-shift 14s ease-in-out infinite;
+}
+
+.world-gradient {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(47, 158, 168, 0.35), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(242, 201, 122, 0.18), transparent 50%),
+    radial-gradient(ellipse 50% 45% at 15% 70%, rgba(62, 198, 201, 0.16), transparent 55%),
+    linear-gradient(180deg, #07131c 0%, #0d2a3a 42%, #16384a 68%, #1c4650 85%, #2a5548 100%);
+}
+
+.terrain-band {
+  background:
+    linear-gradient(
+      180deg,
+      transparent 0%,
+      rgba(20, 60, 72, 0.35) 20%,
+      rgba(34, 82, 74, 0.55) 55%,
+      rgba(46, 90, 70, 0.7) 100%
+    );
+}

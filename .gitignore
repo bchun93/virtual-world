@@ -1,9 +1,9 @@
 # Dependencies
-hub/node_modules/
-hub/dist/
+world/node_modules/
+world/dist/
 
 # Build artifacts
-hub/tsconfig.tsbuildinfo
+world/tsconfig.tsbuildinfo
 
 # OS / editor
 .DS_Store
@@ -12,4 +12,4 @@ hub/tsconfig.tsbuildinfo
 .env.*
 
 # Local overrides
-hub/.vercel
+world/.vercel
