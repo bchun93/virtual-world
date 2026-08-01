@@ -1,6 +1,6 @@
 import { useGameState } from "../../game/state/GameContext";
 import BattleScreen from "./BattleScreen";
-import OverworldCanvas from "./OverworldCanvas";
+import Overworld3D from "./Overworld3D";
 import PartyMenu from "./PartyMenu";
 import StarterSelect from "./StarterSelect";
 import TitleScreen from "./TitleScreen";
@@ -13,7 +13,7 @@ export default function GameShell() {
 
   return (
     <div className="relative min-h-dvh world-gradient px-4 py-6 sm:px-8">
-      <header className="mx-auto mb-4 flex max-w-4xl items-center justify-between">
+      <header className="mx-auto mb-4 flex max-w-5xl items-center justify-between">
         <div>
           <p className="font-display text-sm font-semibold tracking-[0.3em] text-[var(--color-horizon)] uppercase">
             Aether
@@ -24,18 +24,23 @@ export default function GameShell() {
         </div>
       </header>
 
-      <div className="mx-auto max-w-4xl">
+      <div className="relative mx-auto max-w-5xl">
         {mode === "battle" ? (
           <BattleScreen />
-        ) : mode === "menu" ? (
-          <PartyMenu />
         ) : (
-          <OverworldCanvas />
+          <>
+            <Overworld3D />
+            {mode === "menu" && (
+              <div className="absolute inset-0 z-20 flex items-start justify-center bg-black/45 p-4 backdrop-blur-[2px] sm:p-8">
+                <PartyMenu />
+              </div>
+            )}
+          </>
         )}
       </div>
 
       {lastMessage && mode !== "battle" && (
-        <p className="mx-auto mt-4 max-w-4xl rounded-xl border border-white/10 bg-black/30 px-4 py-3 text-sm text-[var(--color-mist)]">
+        <p className="mx-auto mt-4 max-w-5xl rounded-xl border border-white/10 bg-black/30 px-4 py-3 text-sm text-[var(--color-mist)]">
           {lastMessage}
         </p>
       )}

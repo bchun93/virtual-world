@@ -20,6 +20,7 @@ import type {
   GameMode,
   SaveData,
 } from "../types";
+import type { Body3D } from "../overworld/controller3d";
 import {
   clearSave,
   createNewSave,
@@ -54,6 +55,14 @@ type Action =
   | { type: "ENTER_OVERWORLD" }
   | { type: "BUFFER_DIR"; dir: Direction }
   | { type: "TICK"; dt: number }
+  | {
+      type: "ENTER_TILE";
+      tileX: number;
+      tileY: number;
+      facing: Direction;
+      body: Body3D;
+      skipEncounter?: boolean;
+    }
   | { type: "OPEN_MENU" }
   | { type: "CLOSE_MENU" }
   | { type: "BATTLE_ACTION"; action: BattleAction }
@@ -153,6 +162,7 @@ function reducer(state: GameRuntime, action: Action): GameRuntime {
       };
     }
     case "BUFFER_DIR": {
+      // Legacy 2D grid path (unused by 3D overworld)
       if (state.mode !== "overworld" || !state.actor || !state.save) return state;
       if (state.actor.isMoving) {
         return { ...state, bufferedInput: action.dir };
@@ -171,6 +181,7 @@ function reducer(state: GameRuntime, action: Action): GameRuntime {
       };
     }
     case "TICK": {
+      // Legacy 2D grid path (unused by 3D overworld)
       if (state.mode !== "overworld" || !state.actor || !state.save) return state;
       let actor = state.actor;
       let buffered = state.bufferedInput;
@@ -228,6 +239,52 @@ function reducer(state: GameRuntime, action: Action): GameRuntime {
         bufferedInput: buffered,
         graceSteps: grace,
       };
+    }
+    case "ENTER_TILE": {
+      if (state.mode !== "overworld" || !state.actor || !state.save) return state;
+      const actor: OverworldActor = {
+        ...state.actor,
+        tileX: action.tileX,
+        tileY: action.tileY,
+        facing: action.facing,
+        body: action.body,
+        fromX: action.tileX,
+        fromY: action.tileY,
+        toX: action.tileX,
+        toY: action.tileY,
+        isMoving: false,
+        moveProgress: 0,
+      };
+      const save: SaveData = {
+        ...state.save,
+        player: {
+          ...state.save.player,
+          tile: [action.tileX, action.tileY],
+          facing: action.facing,
+        },
+      };
+
+      let grace = state.graceSteps;
+      if (grace > 0) grace -= 1;
+
+      if (!action.skipEncounter && grace <= 0) {
+        const map = getMap(save.player.mapId);
+        const zoneId = encounterZoneAt(map, action.tileX, action.tileY);
+        if (zoneId) {
+          const zone = map.encounterZones[zoneId];
+          if (zone) {
+            const wild = rollEncounter(zone);
+            if (wild) {
+              return startWildBattle(
+                { ...state, actor, save, graceSteps: grace },
+                wild,
+              );
+            }
+          }
+        }
+      }
+
+      return { ...state, actor, save, graceSteps: grace };
     }
     case "OPEN_MENU":
       if (state.mode !== "overworld") return state;

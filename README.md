@@ -1,6 +1,6 @@
 # Virtual World · Aether
 
-A browser creature-collector RPG: walk a tile overworld, battle wild creatures, catch them, and grow your party.
+A browser creature-collector RPG: explore a **3D** Meadow Edge overworld, battle wild creatures, catch them, and grow your party.
 
 Built from the creature-RPG architecture in [`docs/creature-rpg/`](./docs/creature-rpg/) — data-driven content, a pure battle engine, and a grid overworld.
 
