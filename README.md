@@ -1,38 +1,41 @@
-# Short-Term Rental Business
+# Virtual World
 
-Planning workspace and project management hub for building a short-term rental business with a partner.
+**Aether** — an explorable virtual world built as a React web experience.
 
-## Contents
+Wander six connected districts: Tidecove, Ember Grove, Glass Spire, Mirror Archive, Skyward Reach, and Quiet Hollow.
 
-- `consolidated-action-items.md` — full phased checklist with comparison notes
-- `consolidated-action-items.csv` — spreadsheet-friendly export
-- `hub/` — React project management web app (223 action items across 18 phases)
-
-## Web app
+## App
 
 ```bash
-cd hub
+cd world
 npm install
 npm run dev
 ```
 
-After editing the CSV:
-
-```bash
-cd hub
-npm run sync-data
-```
+Open the local URL shown in the terminal (usually `http://localhost:5173`).
 
 ## Deployment
 
-The app is live at **https://bchun93.github.io/short-term-rental-business/**
+Intended live URL after renaming the GitHub repository:
 
-Repository: **https://github.com/bchun93/short-term-rental-business**
+**https://bchun93.github.io/virtual-world/**
 
-Pushes to `main` automatically rebuild and deploy via `.github/workflows/deploy.yml` (GitHub Pages).
+Pushes to `main` rebuild and deploy via `.github/workflows/deploy.yml` (GitHub Pages).
 
-The repo is **public** (required for GitHub Pages on the free plan). See [DEPLOY.md](./DEPLOY.md) for setup details.
+### Rename this repository
 
-## Partner access
+This project previously lived at `short-term-rental-business`. Rename it on GitHub:
 
-Share the live URL with your partner. Task progress is currently saved in each browser via `localStorage`. For shared sync across devices, add a backend (Supabase recommended) as a follow-up.
+```bash
+gh repo rename virtual-world --repo bchun93/short-term-rental-business
+```
+
+Or in GitHub: **Settings → General → Repository name → `virtual-world`**.
+
+After renaming, update your local remote if needed:
+
+```bash
+git remote set-url origin https://github.com/bchun93/virtual-world.git
+```
+
+See [DEPLOY.md](./DEPLOY.md) for Pages setup details.

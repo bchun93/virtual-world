@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 export PATH="$HOME/.local/bin:$PATH"
-REPO_NAME="short-term-rental-business"
+REPO_NAME="virtual-world"
 
 cd "$ROOT"
 
@@ -23,6 +23,12 @@ REMOTE="https://github.com/${GITHUB_USER}/${REPO_NAME}.git"
 
 if git remote get-url origin >/dev/null 2>&1; then
   echo "Remote origin already configured."
+  CURRENT_REMOTE="$(git remote get-url origin)"
+  if [[ "$CURRENT_REMOTE" == *"short-term-rental-business"* ]]; then
+    echo "Renaming GitHub repository to ${REPO_NAME}..."
+    gh repo rename "$REPO_NAME" --repo "${GITHUB_USER}/short-term-rental-business" || true
+    git remote set-url origin "$REMOTE"
+  fi
 else
   if gh repo view "${GITHUB_USER}/${REPO_NAME}" >/dev/null 2>&1; then
     echo "Repository already exists on GitHub. Adding remote..."
@@ -33,7 +39,7 @@ else
       --public \
       --source=. \
       --remote=origin \
-      --description "Short-term rental business project management hub"
+      --description "Aether — an explorable virtual world"
   fi
 fi
 
@@ -44,7 +50,7 @@ echo "Enabling GitHub Pages (GitHub Actions source)..."
 gh api \
   --method POST \
   "/repos/${GITHUB_USER}/${REPO_NAME}/pages" \
-  -f build_type=workflow
+  -f build_type=workflow || true
 
 PAGES_URL="https://${GITHUB_USER}.github.io/${REPO_NAME}/"
 

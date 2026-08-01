@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
-const repoName = "short-term-rental-business";
+const repoName = "virtual-world";
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 export default defineConfig({
