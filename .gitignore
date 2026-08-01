@@ -13,3 +13,4 @@ world/tsconfig.tsbuildinfo
 
 # Local overrides
 world/.vercel
+world/.vite/
