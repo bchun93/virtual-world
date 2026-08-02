@@ -173,7 +173,9 @@
           "trigger": "level",
           "value": 16
         }
-      ]
+      ],
+      "spriteFront": "sprites/starters/emberling.png",
+      "spriteBack": "sprites/starters/emberling.png"
     },
     "cindmaw": {
       "id": "cindmaw",
@@ -202,7 +204,9 @@
           "moveId": "ember"
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "spriteFront": "sprites/starters/emberling.png",
+      "spriteBack": "sprites/starters/emberling.png"
     },
     "tadsplash": {
       "id": "tadsplash",
@@ -245,7 +249,9 @@
           "trigger": "level",
           "value": 16
         }
-      ]
+      ],
+      "spriteFront": "sprites/starters/tadsplash.png",
+      "spriteBack": "sprites/starters/tadsplash.png"
     },
     "riptide": {
       "id": "riptide",
@@ -274,7 +280,9 @@
           "moveId": "water_jet"
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "spriteFront": "sprites/starters/tadsplash.png",
+      "spriteBack": "sprites/starters/tadsplash.png"
     },
     "sprigling": {
       "id": "sprigling",
@@ -317,7 +325,9 @@
           "trigger": "level",
           "value": 16
         }
-      ]
+      ],
+      "spriteFront": "sprites/starters/sprigling.png",
+      "spriteBack": "sprites/starters/sprigling.png"
     },
     "thornbeast": {
       "id": "thornbeast",
@@ -346,7 +356,9 @@
           "moveId": "spore_cloud"
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "spriteFront": "sprites/starters/sprigling.png",
+      "spriteBack": "sprites/starters/sprigling.png"
     },
     "wildtail": {
       "id": "wildtail",
