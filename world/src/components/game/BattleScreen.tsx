@@ -1,5 +1,6 @@
 import { battleSummary } from "../../game/battle/engine";
 import { getSpecies } from "../../game/content/catalog";
+import { speciesSpriteUrl } from "../../game/content/sprites";
 import { displayName } from "../../game/progression/creature";
 import { useGameDispatch, useGameState } from "../../game/state/GameContext";
 
@@ -32,12 +33,26 @@ export default function BattleScreen() {
     <div className="animate-fade mx-auto flex w-full max-w-3xl flex-col gap-4 rounded-2xl border border-white/10 bg-[rgba(7,19,28,0.88)] p-5 backdrop-blur-xl">
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="rounded-xl border border-white/10 bg-white/5 p-4">
-          <p className="text-xs tracking-[0.2em] text-[var(--color-mist-dim)] uppercase">Wild</p>
-          <h3 className="mt-1 font-display text-2xl font-bold">{displayName(battle.opponent.instance)}</h3>
-          <p className="text-sm text-[var(--color-mist-dim)]">
-            Lv.{battle.opponent.instance.level} · {foeSpecies.types.join("/")}
-            {battle.opponent.instance.status ? ` · ${battle.opponent.instance.status}` : ""}
-          </p>
+          <div className="flex items-start gap-3">
+            {speciesSpriteUrl(foeSpecies.id) && (
+              <img
+                src={speciesSpriteUrl(foeSpecies.id)!}
+                alt=""
+                className="h-20 w-20 shrink-0 object-contain"
+                draggable={false}
+              />
+            )}
+            <div className="min-w-0 flex-1">
+              <p className="text-xs tracking-[0.2em] text-[var(--color-mist-dim)] uppercase">Wild</p>
+              <h3 className="mt-1 font-display text-2xl font-bold">
+                {displayName(battle.opponent.instance)}
+              </h3>
+              <p className="text-sm text-[var(--color-mist-dim)]">
+                Lv.{battle.opponent.instance.level} · {foeSpecies.types.join("/")}
+                {battle.opponent.instance.status ? ` · ${battle.opponent.instance.status}` : ""}
+              </p>
+            </div>
+          </div>
           <div className="mt-3">
             <HpBar
               current={battle.opponent.instance.currentHp}
@@ -50,12 +65,28 @@ export default function BattleScreen() {
           </div>
         </div>
         <div className="rounded-xl border border-white/10 bg-white/5 p-4">
-          <p className="text-xs tracking-[0.2em] text-[var(--color-horizon)] uppercase">Your party</p>
-          <h3 className="mt-1 font-display text-2xl font-bold">{displayName(battle.player.instance)}</h3>
-          <p className="text-sm text-[var(--color-mist-dim)]">
-            Lv.{battle.player.instance.level} · {playerSpecies.types.join("/")}
-            {battle.player.instance.status ? ` · ${battle.player.instance.status}` : ""}
-          </p>
+          <div className="flex items-start gap-3">
+            {speciesSpriteUrl(playerSpecies.id) && (
+              <img
+                src={speciesSpriteUrl(playerSpecies.id)!}
+                alt=""
+                className="h-20 w-20 shrink-0 object-contain"
+                draggable={false}
+              />
+            )}
+            <div className="min-w-0 flex-1">
+              <p className="text-xs tracking-[0.2em] text-[var(--color-horizon)] uppercase">
+                Your party
+              </p>
+              <h3 className="mt-1 font-display text-2xl font-bold">
+                {displayName(battle.player.instance)}
+              </h3>
+              <p className="text-sm text-[var(--color-mist-dim)]">
+                Lv.{battle.player.instance.level} · {playerSpecies.types.join("/")}
+                {battle.player.instance.status ? ` · ${battle.player.instance.status}` : ""}
+              </p>
+            </div>
+          </div>
           <div className="mt-3">
             <HpBar
               current={battle.player.instance.currentHp}

@@ -1,4 +1,5 @@
 import { getSpecies } from "../../game/content/catalog";
+import { speciesSpriteUrl } from "../../game/content/sprites";
 import { displayName } from "../../game/progression/creature";
 import { getMaxHp } from "../../game/progression/stats";
 import { useGameDispatch, useGameState } from "../../game/state/GameContext";
@@ -26,14 +27,27 @@ export default function PartyMenu() {
           const species = getSpecies(c.speciesId);
           const max = getMaxHp(species, c);
           return (
-            <li key={c.instanceId} className="rounded-xl border border-white/10 bg-white/5 px-4 py-3">
-              <div className="flex items-baseline justify-between">
-                <span className="font-display text-lg font-semibold">{displayName(c)}</span>
-                <span className="text-sm text-[var(--color-mist-dim)]">Lv.{c.level}</span>
+            <li
+              key={c.instanceId}
+              className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-4 py-3"
+            >
+              {speciesSpriteUrl(c.speciesId) && (
+                <img
+                  src={speciesSpriteUrl(c.speciesId)!}
+                  alt=""
+                  className="h-14 w-14 shrink-0 object-contain"
+                  draggable={false}
+                />
+              )}
+              <div className="min-w-0 flex-1">
+                <div className="flex items-baseline justify-between gap-2">
+                  <span className="font-display text-lg font-semibold">{displayName(c)}</span>
+                  <span className="text-sm text-[var(--color-mist-dim)]">Lv.{c.level}</span>
+                </div>
+                <p className="text-xs capitalize text-[var(--color-mist-dim)]">
+                  {species.types.join(" / ")} · HP {Math.min(c.currentHp, max)}/{max}
+                </p>
               </div>
-              <p className="text-xs capitalize text-[var(--color-mist-dim)]">
-                {species.types.join(" / ")} · HP {Math.min(c.currentHp, max)}/{max}
-              </p>
             </li>
           );
         })}
